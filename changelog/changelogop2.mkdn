@@ -1,0 +1,31 @@
+Changelog
+
+
+20th November 2017
+
+Sources updated till 20th November 5.30pm IST.
+
+November security patches.
+
+AlertSlider:
+Notification slider: add Ignore Mode
+Disable Priority/Zen mode when switching to Vibrate/Ring
+Fixed Priority mode.
+
+Notification and audio alert while charging on selective values.
+Navbar keyboard cursors: fix drawable derp
+Fix Bluetooth ON status when enterig detail view
+Different Delight logo in About settings.
+TZ Comparison is back while flashing roms.
+1 second delay before restarting SystemUI so power menu can disappear properly.
+New Delight logo - courtesy of B!Gguy@xda
+Empty or with no title categories removed.
+CPU info overlay fixed.
+Pocket Judge / Pocket Lock.
+- Under BeDelighted - Gestures.
+Current network traffic implementation replaced with Omni Network traffic.
+Brightness control on footer with two small buttons on left and right
+- to increase or decrease brightness step by step or in one long press.
+Battery tile shows charging status now.
+Added a toast when a screenshot is deleted.
+Data should be improved now after some related patches in sources.

@@ -1,0 +1,127 @@
+
+ ▼ Delight Oreo Version 1.1 Changelog
+
+
+ ▼ 11/20/2017
+
+
+ ▪ project device/lineage/sepolicy/
+ ▪ 44f177f Add pocket judge selinux policy
+
+ ▪ project device/oppo/common/
+ ▪ 5759b47 Fixing Priority mode switch.
+
+ ▪ project frameworks/base/
+ ▪ 7be6a94 Bluetooth: Avoiding NULL pointer dereferences
+ ▪ de495b9 binder: adjust GC interval for binder ops
+ ▪ 80b7e85 Avoid clearing default browser setting when unnecessary
+ ▪ 9f3bc21 Turning screen on without creating surface
+ ▪ ba3b66b Adding optimization to reduce callbacks to TextClock
+ ▪ 372ebb2 fix notification transact fail problem
+ ▪ 7f49a91 adjustSuggestedStreamVolume:google patch cause java crash
+ ▪ 6a88b7c Should stop the link process when find resource is not exist
+ ▪ ddc8584 Fix an apk icon animation corruption issue
+ ▪ bf49a06 Fix and work around aliasing rule violations
+ ▪ af8481f Disable hwui blending for first draw to main FBO
+ ▪ b4c28ea Fix for wakelock being held during bootup and idle scenario.
+ ▪ 4ba03c8 MessageQueue: explicitly remove FD event listeners.
+ ▪ 747baa5 Prevent data usage dialog from being displayed again
+ ▪ 97b76b3 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_frameworks_base into oreo
+ ▪ 099aa3d SysUI: Move all sensor operations to the background thread
+ ▪ 8e12c0b Convert Binder & BinderProxy to NativeAllocationRegistry
+ ▪ 19327d7 ZenModeConfig: Fix weeknight and weekend days arrays
+ ▪ 250b2ce Add "android.permission.READ_PHONE_STATE" to manifest
+ ▪ d656342 Rename Binder.destroy() to Binder.destroyBinder().
+ ▪ 4ed1aae Naming fix and add comments
+ ▪ ab255ef Added toast when a screenshot is deleted
+ ▪ 9de5b79 Crash occured due to null pointer exception.
+ ▪ 5cd7c07 Remove data saver QS dialog
+ ▪ 0c13634 Putting Restart SystemUI under a handler
+ ▪ a06bd39 BT: Multi A2dp support in Settings App.
+ ▪ 4e440d6 FWB: PocketJudge: Stop light sensor usage
+ ▪ 853a80a core: jni: don't do runtime abort if setgroups fails
+ ▪ 878dbbd Optimal charge level alert: code improvements
+ ▪ 439dbc7 Update battery tile to show charging state
+ ▪ b13cf3d SysUI tuner activities: fix SysUI fc on rotation
+ ▪ 636ced2 Fix wrong actionbar title sticking around after exit
+ ▪ 57c88d5 Comment out dead aosp lowbattery sound code
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 168cb58 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_frameworks_opt_telephony into oreo
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 942bb9e Move device dependent modules to /vendor
+ ▪ a7447c9 audiod: Add liblog and libaudioclient dependecies
+
+ ▪ project packages/apps/DelightSettings/
+ ▪ ae82c01 Improve launch music app connection strings
+ ▪ e332e8d [2/2] OmniGears: rework and cleanup network traffic
+ ▪ be90a90 [2/2] OmniGears: bring back status nework traffic
+ ▪ 32ab70c Revert "Status network traffic [2/2]"
+ ▪ a96e721 DelightSettings: correct init of default weather icon pack
+ ▪ e909b37 Add preference for pocket judge
+ ▪ 1a1512e Set fast mode (never expanded) as default [2/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ 90184c3 Remove empty category under tts
+ ▪ 8eb7914 Category with no title strikes again
+ ▪ 3b8e2df Remove empty space created by category without title
+ ▪ 7614880 fix scramble pin switch
+ ▪ b739681 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_packages_apps_Settings into oreo
+
+ ▪ project system/core/
+ ▪ 5576b4c Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_system_core into oreo
+
+ ▪ project system/sepolicy/
+ ▪ 227ab6f Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_system_sepolicy into oreo
+
+ ▪ project vendor/lineage/
+ ▪ aeaf28f Remove Turbo
+ ▪ 2e5cf57 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_vendor_lineage into oreo
+ ▪ 86317a8 Version increment for r30
+
+ ▼ 11/19/2017
+
+
+ ▪ project vendor/lineage/
+ ▪ c3532d9 lineage: Add privapp permissions for Lineage applications
+
+ ▼ 11/18/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 9501520 audio: Use vendor specific tinycompress
+
+ ▪ project lineage/wiki/
+ ▪ 921837b wiki: Fix some spelling errors
+
+ ▼ 11/17/2017
+
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 33acc52 Use a config to enable MMS when mobile data is off
+
+ ▪ project lineage/wiki/
+ ▪ 82371a7 faq: add entry about alternative download options
+
+ ▼ 11/16/2017
+
+
+ ▪ project lineage/jenkins/
+ ▪ 195b946 hudson: Rebalance targets
+
+ ▪ project lineage/wiki/
+ ▪ 7ea34c7 wiki: ensure users have a valid contributor agreement
+ ▪ 3bca9cd hlte*: Update maintainers
+
+ ▪ project packages/apps/LineageParts/
+ ▪ 8eca6f5 LineageParts LightSettingsDialog: Use an mContext member variable
+
+ ▪ project system/sepolicy/
+ ▪ 65b1c69 Revert "Restrict BOARD_PLAT_[PUBLIC|PRIVATE]_SEPOLICY_DIRS to one dir."
+
+ ▪ project vendor/lineage/
+ ▪ f15c371 lineage: build: kernel: Rework kernel module logic
+ ▪ b11d573 build: Make eat use the latest zip in $OUT
+ ▪ a2440d0 lineage: Append time of day to zip names for unofficials
+
