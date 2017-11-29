@@ -1,127 +1,179 @@
 
- ▼ Delight Oreo Version 1.1 Changelog
+ ▼ Delight Oreo Version 1.2 Changelog
 
 
- ▼ 11/20/2017
+ ▼ 11/29/2017
 
 
- ▪ project device/lineage/sepolicy/
- ▪ 44f177f Add pocket judge selinux policy
+ ▪ project device/oneplus/oneplus2/
+ ▪ 920bf63 oneplus2: put oneplusdoze in dashboard for now
+ ▪ cfab5e0 oneplus2: bring back OnePlus Doze
 
  ▪ project device/oppo/common/
- ▪ 5759b47 Fixing Priority mode switch.
+ ▪ 2bdab0e Delete ic_settings_reset.png
+ ▪ 8ee8988 devicehandler: create reset vector drawable
+ ▪ e448e18 devicehandler: use default settings theme
 
  ▪ project frameworks/base/
- ▪ 7be6a94 Bluetooth: Avoiding NULL pointer dereferences
- ▪ de495b9 binder: adjust GC interval for binder ops
- ▪ 80b7e85 Avoid clearing default browser setting when unnecessary
- ▪ 9f3bc21 Turning screen on without creating surface
- ▪ ba3b66b Adding optimization to reduce callbacks to TextClock
- ▪ 372ebb2 fix notification transact fail problem
- ▪ 7f49a91 adjustSuggestedStreamVolume:google patch cause java crash
- ▪ 6a88b7c Should stop the link process when find resource is not exist
- ▪ ddc8584 Fix an apk icon animation corruption issue
- ▪ bf49a06 Fix and work around aliasing rule violations
- ▪ af8481f Disable hwui blending for first draw to main FBO
- ▪ b4c28ea Fix for wakelock being held during bootup and idle scenario.
- ▪ 4ba03c8 MessageQueue: explicitly remove FD event listeners.
- ▪ 747baa5 Prevent data usage dialog from being displayed again
- ▪ 97b76b3 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_frameworks_base into oreo
- ▪ 099aa3d SysUI: Move all sensor operations to the background thread
- ▪ 8e12c0b Convert Binder & BinderProxy to NativeAllocationRegistry
- ▪ 19327d7 ZenModeConfig: Fix weeknight and weekend days arrays
- ▪ 250b2ce Add "android.permission.READ_PHONE_STATE" to manifest
- ▪ d656342 Rename Binder.destroy() to Binder.destroyBinder().
- ▪ 4ed1aae Naming fix and add comments
- ▪ ab255ef Added toast when a screenshot is deleted
- ▪ 9de5b79 Crash occured due to null pointer exception.
- ▪ 5cd7c07 Remove data saver QS dialog
- ▪ 0c13634 Putting Restart SystemUI under a handler
- ▪ a06bd39 BT: Multi A2dp support in Settings App.
- ▪ 4e440d6 FWB: PocketJudge: Stop light sensor usage
- ▪ 853a80a core: jni: don't do runtime abort if setgroups fails
- ▪ 878dbbd Optimal charge level alert: code improvements
- ▪ 439dbc7 Update battery tile to show charging state
- ▪ b13cf3d SysUI tuner activities: fix SysUI fc on rotation
- ▪ 636ced2 Fix wrong actionbar title sticking around after exit
- ▪ 57c88d5 Comment out dead aosp lowbattery sound code
+ ▪ 99562b7 Setting correct number of hardware keys
+ ▪ b6c237e Reverts for Smartbar
 
- ▪ project frameworks/opt/telephony/
- ▪ 168cb58 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_frameworks_opt_telephony into oreo
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ 942bb9e Move device dependent modules to /vendor
- ▪ a7447c9 audiod: Add liblog and libaudioclient dependecies
+ ▪ project kernel/oneplus/msm8994/
+ ▪ a3ca96a Removed Boeffla-Touchkey controls
+ ▪ e9c92c6 Revert "synaptics_driver_s3320 : Vibrate on detection of dt2w"
+ ▪ 96ad29a Revert "misc: fpc1020: Increase fingerprintd nice value when screen is off"
 
  ▪ project packages/apps/DelightSettings/
- ▪ ae82c01 Improve launch music app connection strings
- ▪ e332e8d [2/2] OmniGears: rework and cleanup network traffic
- ▪ be90a90 [2/2] OmniGears: bring back status nework traffic
- ▪ 32ab70c Revert "Status network traffic [2/2]"
- ▪ a96e721 DelightSettings: correct init of default weather icon pack
- ▪ e909b37 Add preference for pocket judge
- ▪ 1a1512e Set fast mode (never expanded) as default [2/2]
-
- ▪ project packages/apps/Settings/
- ▪ 90184c3 Remove empty category under tts
- ▪ 8eb7914 Category with no title strikes again
- ▪ 3b8e2df Remove empty space created by category without title
- ▪ 7614880 fix scramble pin switch
- ▪ b739681 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_packages_apps_Settings into oreo
-
- ▪ project system/core/
- ▪ 5576b4c Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_system_core into oreo
-
- ▪ project system/sepolicy/
- ▪ 227ab6f Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_system_sepolicy into oreo
-
- ▪ project vendor/lineage/
- ▪ aeaf28f Remove Turbo
- ▪ 2e5cf57 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_vendor_lineage into oreo
- ▪ 86317a8 Version increment for r30
-
- ▼ 11/19/2017
-
-
- ▪ project vendor/lineage/
- ▪ c3532d9 lineage: Add privapp permissions for Lineage applications
-
- ▼ 11/18/2017
-
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ 9501520 audio: Use vendor specific tinycompress
-
- ▪ project lineage/wiki/
- ▪ 921837b wiki: Fix some spelling errors
-
- ▼ 11/17/2017
-
-
- ▪ project frameworks/opt/telephony/
- ▪ 33acc52 Use a config to enable MMS when mobile data is off
-
- ▪ project lineage/wiki/
- ▪ 82371a7 faq: add entry about alternative download options
-
- ▼ 11/16/2017
-
-
- ▪ project lineage/jenkins/
- ▪ 195b946 hudson: Rebalance targets
-
- ▪ project lineage/wiki/
- ▪ 7ea34c7 wiki: ensure users have a valid contributor agreement
- ▪ 3bca9cd hlte*: Update maintainers
+ ▪ 06298b0 Disabling/Enabling other preferences based on H/W Keys preference
+ ▪ 656089b We only have Home/Back and Menu keys.
+ ▪ 9832f67 Remove more reverted features
 
  ▪ project packages/apps/LineageParts/
- ▪ 8eca6f5 LineageParts LightSettingsDialog: Use an mContext member variable
+ ▪ 9115109 Fixes.
 
- ▪ project system/sepolicy/
- ▪ 65b1c69 Revert "Restrict BOARD_PLAT_[PUBLIC|PRIVATE]_SEPOLICY_DIRS to one dir."
+ ▪ project packages/apps/Messaging/
+ ▪ 4043da4 Change cell broadcast intent to Settings
+
+ ▪ project packages/apps/Settings/
+ ▪ 3ad6976 We have our own Doze Package now so disable Doze here.
+ ▪ a91e41e Removed LineageOS version info
+ ▪ d1e8c7d Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_packages_apps_Settings into oreo
 
  ▪ project vendor/lineage/
- ▪ f15c371 lineage: build: kernel: Rework kernel module logic
- ▪ b11d573 build: Make eat use the latest zip in $OUT
- ▪ a2440d0 lineage: Append time of day to zip names for unofficials
+ ▪ b5808d8 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_vendor_lineage into oreo
+ ▪ df29022 repopick: Support overriding the default commits count to check
 
+
+ ▼ 11/28/2017
+
+
+ ▪ project build/make/
+ ▪ 0a2513c Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_build into oreo
+
+ ▪ project frameworks/base/
+ ▪ 7f5049c Brightness footer slider: improve animation when on 2nd QS page
+ ▪ bf3eff4 Replace ugly DU's last app animations with old CM's
+ ▪ 8048ff7 Ambient tile: don't apply alpha on inactive
+ ▪ 6141962 Fix battery detail view battery icon tint
+ ▪ edff652 Make the battery saver tile useful
+ ▪ 85a69c5 base: Introduce Accidental Touch
+ ▪ 8b881ab base: Introduce new navigation bar key event source
+ ▪ edf28d5 Fix Hardware keys backlight not turning of with disabler
+ ▪ 684cf87 Buttons: Hardware key disable support with M adaptations
+ ▪ 9e90b83 frameworks/base: Don't report existing menu key if it was
+ ▪ 4986112 Buttons: Bring up DU hardware key action binding framework
+ ▪ f85e05b Dui abc customization: remove no aosp libs and change fling logo
+ ▪ 7ecb878 DUI: Initial checkin for Oreo [5/7]
+ ▪ 1e1f5b4 Revert "Navbar media arrows: more code improvements"
+ ▪ cbfcab5 Revert "Add NavBar toggle [1/2]"
+ ▪ 37e1399 Revert "Sysui tuner: add autohiding IME cursors as left/right nav buttons"
+ ▪ 65b6699 Revert "Navbar customizer: add dynamic skip_track/kb cursors buttons"
+ ▪ c5cae04 Revert "Navbar skiptrack arrows: blacklist some apps"
+ ▪ ff5e4bc Revert "Navbar keyboard cursors: fix drawable derp"
+ ▪ f55e24b Revert "Use bottom lockscreen to sleep"
+ ▪ 79ac056 Revert "Add navbar double tap to sleep [1/2]"
+ ▪ fe937689 Revert "TEMP: Longpress back to kill app [1/2]"
+ ▪ 86264ba Revert "TEMP: Hardware key custom rebinding (1/2) (before DU)"
+ ▪ a7b909a Revert "HW keys: Add screenshot,partial screenshot, pip actions"
+ ▪ 56c79ec Revert "[Base] HW keys tweaks (1/2)"
+ ▪ 7e907bb Revert "[1/2] base: force show navbar"
+ ▪ 970d501 config: longer wifi scan interval
+ ▪ e93bd80 Add key for proxi check for wake keys
+ ▪ 8156dfc Revert "SettingsLib: Allow Skia Vulkan to be used as HW renderer"
+ ▪ 0066148 Disable notification channel warnings by default
+ ▪ 70da2e3 SystemUI: Restrict persistent USB drive notifications to USB disks
+
+ ▪ project kernel/oneplus/msm8994/
+ ▪ 067fff2 msm: mdss: fix race condition between vsync handler and ctl_stop
+ ▪ 184b93e msm: mdss: serialize overlay_vsync_ctrl with ov_lock
+ ▪ dbfcff4 msm: mdss: release the mutex on rotator kickoff failure
+ ▪ 86cf845 workqueue: allow work_on_cpu() to be called recursively
+ ▪ 8cd64d5 workqueue: Remove deprecated flush[_delayed]_work_sync()
+ ▪ 16c54f7 workqueue: Spelling s/instensive/intensive/
+ ▪ 129bd64 workqueue: Remove deprecated __cancel_delayed_work()
+ ▪ 257787d workqueue.h: remove loops of single statement macros
+ ▪ 86037c1 workqueue: remove unused WORK_CPU_END
+ ▪ 6e6dc98 workqueue: move flush_scheduled_work() to workqueue.h
+ ▪ ba44021 workqueue: remove unused work_clear_pending()
+ ▪ 71e9b0c kernel/workqueue.c: pr_warning/pr_warn & printk/pr_info
+ ▪ db86bf9 workqueue: simplify wq_update_unbound_numa() by jumping to use_dfl_pwq if the target cpumask equals wq's
+ ▪ 2658a78 workqueue: wake regular worker if need_more_worker() when rescuer leave the pool
+ ▪ 2a99668 workqueue: alloc struct worker on its local node
+ ▪ 7e3a97a workqueue: reuse the already calculated pwq in try_to_grab_pending()
+ ▪ 30ee544 workqueue: stronger test in process_one_work()
+ ▪ 0034a40 workqueue: remove useless WARN_ON_ONCE()
+ ▪ 5080d24 workqueue: sanity check pool->cpu in wq_worker_sleeping()
+ ▪ 6e79f02 workqueue: use schedule_timeout_interruptible() instead of open code
+ ▪ a6075e2 workqueue: remove the empty check in too_many_workers()
+ ▪ 9eb37c2 workqueue: use "pool->cpu < 0" to stand for an unbound pool
+ ▪ f1bf1f6 workqueue: Provide destroy_delayed_work_on_stack()
+ ▪ 135d1d5 workqueue: fix pool ID allocation leakage and remove BUILD_BUG_ON() in init_workqueues
+ ▪ f114eeb workqueue: Fix workqueue stall issue after cpu down failure
+ ▪ e9a8e3a workqueue: clear POOL_DISASSOCIATED in rebind_workers()
+ ▪ 54613f7 Don't reset keys pressed at suspend time
+ ▪ 45ed3af Revert :msm: mdss: Restrict display commit thread to power cluster
+ ▪ f6c3280 input: synaptics: Ignore keypad presses when touchscreen is in use [2/2] When the user's finger is on the touchscreen, don't process any keypad button presses, as an unintended button press will cause poor UX.
+ ▪ 796a796 input: synaptics: Ignore keypad presses when touchscreen is in use When the user's finger is on the touchscreen, don't process any keypad button presses, as an unintended button press will cause poor UX.
+ ▪ a1f61a4 Squashed revert of buggy and clunky is_keypad_stopped feature
+
+ ▪ project lineage/jenkins/
+ ▪ 9f38590 hudson: Remove wt88047
+
+ ▪ project lineage/updater/
+ ▪ 78d3ec0 updater: Correct up documentation part about deleting builds
+
+ ▪ project packages/apps/DelightSettings/
+ ▪ 2feb7ee Buttons: fix removing lights preferences after DU HW rebindings
+ ▪ 35c2aec Add preference for Accidental Touch
+ ▪ 60db88b Buttons: HwKey action binding preferences [3/3]
+ ▪ b4f4cd8 Dui abc customization: remove no aosp libs and change fling logo
+ ▪ 2a45020 DUI: Initial checkin for Oreo [4/7]
+ ▪ 245256e Remove reverted features
+
+ ▪ project packages/apps/Dialer/
+ ▪ ae2d310 InCallUI: SmartMute
+
+ ▪ project packages/apps/Settings/
+ ▪ a40fa66 Seriously these blank categories are getting old
+ ▪ 38b5c42 The blueman group have left the building..
+ ▪ 201c5d5 DUI: Initial checkin for Oreo [3/7]
+ ▪ b8af6ad Changelog: clean and make themeable before: https://imgur.com/a/ylSQG after: https://imgur.com/a/GdnPN
+ ▪ 715a649 [PATCH] Live Volume Steps: Add missed bluetooth volume steps
+ ▪ 49e40f8 Revert "Settings: Add back battery and notification lights settings"
+ ▪ 2cd1922 More Empty Categories removed
+ ▪ ae4a8ca Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_packages_apps_Settings into oreo
+
+ ▪ project system/core/
+ ▪ 42c9119 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_system_core into oreo
+
+ ▪ project system/sepolicy/
+ ▪ 5a48235 Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_system_sepolicy into oreo
+
+ ▪ project vendor/lineage/
+ ▪ 203aa71 Permission changes
+ ▪ aad13f8 Kill teal color for the default printer service
+ ▪ 5568617 DUI: Initial checkin for Oreo [2/7]
+ ▪ 39d3c8d Merge branch 'lineage-15.0' of https://github.com/LineageOS/android_vendor_lineage into oreo
+
+ ▼ 11/27/2017
+
+
+ ▪ project build/make/
+ ▪ 6580079 cleanbuild: add *.zip.md5sum to installclean_files
+ ▪ d08a96e Allow setting the recovery density separately from the aapt config
+
+ ▪ project lineage/wiki/
+ ▪ 23024a7 paella: fix links to twrp
+
+ ▼ 11/26/2017
+
+
+ ▪ project external/DUtils/
+ ▪ 0f78233 HW Buttons: rework defaults HOME: long tap - recents, double tap - no action BACK: long tap - kill app MENU: long tap - last app
+ ▪ 55512df Enable ScreenRecord
+
+ ▪ project hardware/libhardware/
+ ▪ fb98d55 LEDs Brightness: Add the libhardware comment indications
+
+ ▪ project lineage/wiki/
+ ▪ 4919391 wiki: Clarify which klte* build is for which model

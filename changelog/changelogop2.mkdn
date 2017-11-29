@@ -1,6 +1,36 @@
 Changelog
 
 
+29th November 2017
+
+Sources updated till 29th November 5.00pm IST.
+
+version 1.2
+
+Buttons/Navbar:
+Replaced old implementation of hardware keys custom actions with DU's Hardware key binding framework.
+Replaced old navbar implementation with DU's smartbar including Pulse.
+Introduced Accidental Touch.
+Fixed Button Lights issues.
+- So in short, Buttons category should be fixed completely.
+
+SmartMute - Flip phone to silence incoming calls.
+Longer wifi scan interval.
+Changelog: clean and make themeable
+Live Volume Steps: Add missed bluetooth volume steps
+More Empty Categories removed/fixed.
+
+Brightness footer slider: improve animation when on 2nd QS page.
+Ambient tile: don't apply alpha on inactive.
+Fix battery detail view battery icon tint.
+Double tap to sleep on lockscreen should work on full screen now.
+Double tap to wake vibration is removed.
+OnePlusDoze included with Proximity and Wave options.
+
+** Please test and report whether MMS is fixed or not as I am building it with my old branch to see if that'll make any difference.
+** Offline charging is broken in LineageOS so it'll be fixed when it's fixed in sources.
+** This is the last Beta release, We will be moving to stable builds from next update.
+
 20th November 2017
 
 Sources updated till 20th November 5.30pm IST.
@@ -15,7 +45,6 @@ Fixed Priority mode.
 Notification and audio alert while charging on selective values.
 Navbar keyboard cursors: fix drawable derp
 Fix Bluetooth ON status when enterig detail view
-Different Delight logo in About settings.
 TZ Comparison is back while flashing roms.
 1 second delay before restarting SystemUI so power menu can disappear properly.
 New Delight logo - courtesy of B!Gguy@xda
