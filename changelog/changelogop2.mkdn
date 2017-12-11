@@ -1,6 +1,35 @@
 Changelog
 
 
+11th December 2017
+
+Sources updated till 11th December 10.40pm IST.
+
+oneplus2: Remove VideoEditor related profiles
+op2: Remove unused BoardConfig flags
+op2: cam: use clang / fix for O
+oneplus2: Remove MMS from metered APN types
+- Should fix MMS issue.
+
+Revert "Fix another AddAccountSettings memory leak"
+DUI: don't initialize pulse and media arrows for some apps
+Kill airplane mode toggle Teal color
+DUI smartbar double tap to sleep
+Wireguard inclusion
+Add Camera sound toggle - Under Be-Delighted -> Others
+Set navbar always translucent
+Fix editor Action and Icon popups not working if system animations are off
+Smartbar editmode navbar color: code improvements
+Vectorize smartbar buttons popup selected item
+Pixel blue for smartbar buttons popup selected item
+Smartbar editor: color navbar when in edit mode
+Refresh smartbar edit mode close button
+Fling and Smartbar: darken also custom buttons icons on light navbar
+Color Picker: fix dead dialog showing under the new one after rotation
+Protect against SystemUI FC when toggling navbar too fast
+Improve color picker layout / cleaned up some of the code
+Enable partial screenshot custom action
+
 29th November 2017
 
 Sources updated till 29th November 5.00pm IST.
